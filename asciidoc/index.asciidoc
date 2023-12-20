@@ -1,0 +1,19 @@
+= Cryptography - playground
+:title-page:
+:author: Miroslaw Sedzinski
+:toc: auto
+:toc-title: Table of content
+
+[%breakable]
+== Block ciphers 
+
+=== Properties of IV vector
+
+This short article discuss and demonstrates properties of initialization vector. DES and AES schemes are used as examples.
+
+Link:
+link:article1/index.html[Get Report]
+
+=== Probability distributions comparison
+
+=== Collision attacks on DES
