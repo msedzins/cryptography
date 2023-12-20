@@ -10,8 +10,9 @@ Block cipher encryption can be represented as a function:
 
 stem:[E: K xx M_n \to C_n]
 
-The function, given a key stem:[k in K],  maps n-bit input message  stem:[m] from a message space stem:[M] to n-bit ciphertext from space stem:[C].
+The function, given a key stem:[k in K],  maps n-bit input plaintext  stem:[m] from a message space stem:[M] to n-bit ciphertext from space stem:[C].
 
-
+There are two immediate problems we can observe, in case when plaintext length exceeds block length:
+. 
 
   
