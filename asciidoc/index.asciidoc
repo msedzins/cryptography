@@ -5,14 +5,22 @@
 :toc-title: Table of content
 
 [%breakable]
-== Block ciphers 
+== Introduction
+
+
+This repo contains number of articles that touch on topics i've been interesed in at any given point of time.
+
+Work in progress.
+
+[%breakable]
+== Symmetric-key block ciphers 
 
 === Properties of IV vector
 
-This short article discuss and demonstrates properties of initialization vector. DES and AES schemes are used as examples.
+This short article discusses and demonstrates properties of initialization vector. DES and AES schemes are used as examples.
 
 Link:
-link:article1/index.html[Get Report]
+link:article1/index.html[Go to article]
 
 === Probability distributions comparison
 
