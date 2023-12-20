@@ -13,15 +13,17 @@ This repo contains number of articles that touch on topics i've been interesed i
 Work in progress.
 
 [%breakable]
-== Symmetric-key block ciphers 
+== Symmetric-key block ciphers  
 
-=== Properties of IV vector
+=== Properties of IV vector (IN PROGRESS)
 
 This short article discusses and demonstrates properties of initialization vector. DES and AES schemes are used as examples.
 
 Link:
 link:article1/index.html[Go to article]
 
-=== Probability distributions comparison
+=== Probability distributions comparison (TODO)
 
-=== Collision attacks on DES
+=== Collision attacks on DES (TODO)
+
+=== Security of chained encryption (TODOs)
