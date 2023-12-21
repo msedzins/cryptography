@@ -1,5 +1,5 @@
 articles := asciidoc/article1/index.html
-
+ 
 deploy: asciidoc/index.html
 	git commit -a -m "New version"
 	git push

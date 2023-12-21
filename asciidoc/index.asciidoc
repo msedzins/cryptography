@@ -27,3 +27,5 @@ link:article1/index.html[Go to article]
 === Collision attacks on DES (TODO)
 
 === Security of chained encryption (TODOs)
+
+=== Encryption in blockchain (TODOs)

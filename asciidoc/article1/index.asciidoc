@@ -12,6 +12,11 @@ stem:[E: K xx M_n \to C_n]
 
 The function, given a key stem:[k in K],  maps n-bit input plaintext  stem:[m] from a message space stem:[M] to n-bit ciphertext from space stem:[C].
 
+But how to handle a scenario where plaintext length exceeds block length?
+To that end, so called modes of operations were introduces. 
+
+
+
 In case when a plaintext length exceeds block length and a key is reused, there are two immediate problems that can be observed:
 
 .  Repeatition - the same plaintext always results in the same ciphertext. Thus, adversary can observe patterns in the ciphertext. Although they don't see actual data, they can gain insight by analysing statistical properties.
