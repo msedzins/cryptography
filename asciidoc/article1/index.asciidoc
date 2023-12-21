@@ -6,13 +6,19 @@ link:../index.html[Main index]
 == Properties of IV vector
 === Problem description
 
-Block cipher encryption can be represented as a function:
+Block cipher encryption can be represented as a deterministic function:
 
 stem:[E: K xx M_n \to C_n]
 
 The function, given a key stem:[k in K],  maps n-bit input plaintext  stem:[m] from a message space stem:[M] to n-bit ciphertext from space stem:[C].
 
-There are two immediate problems we can observe, in case when plaintext length exceeds block length:
-. 
+In case when a plaintext length exceeds block length and a key is reused, there are two immediate problems that can be observed:
+
+.  Repeatition - the same plaintext always results in the same ciphertext. Thus, adversary can observe patterns in the ciphertext. Although they don't see actual data, they can gain insight by analysing statistical properties.
+. Lack of integrity - One block of ciphertext can be easily and in undetected way replaced by another. **Note**: Although this property creates risk, it can be actually useful in certain scenarios due to the fact that it allows to replace blocks individually once they change. Also - it doesn't propagate errors.
+
+=== Solution
+
+To deal with above problems, 
 
   
